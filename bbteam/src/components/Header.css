@@ -1,0 +1,117 @@
+/* Remove default body margin/padding */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styling */
+.navbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1a0d24; 
+  color: #fff;
+  padding: 10px 20px;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Vertically center image and text */
+  gap: 10px; /* Optional: add some space between the logo image and text */
+}
+
+.navbar .logo img {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+}
+
+
+/* Logo styling */
+.logo h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Menu styling */
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+/* Styling for menu items */
+.item {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: color 0.3s ease;
+  font-size: 1.5rem;
+  overflow: hidden; /* Ensure the pseudo-element doesn't spill out */
+}
+
+.item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;                   /* Start with zero height */
+  background-color: #ffa500;   /* Orange color */
+  transition: height 0.3s ease;
+  z-index: -1;                 /* Place behind the text */
+}
+
+.item:hover::after {
+  height: 100%;                /* Expand to full height on hover */
+}
+
+.item:hover {
+  color: #fff;
+  /* Remove the background-color change since the pseudo-element handles it */
+}
+
+.active {
+  border-bottom: 2px solid #ffa500; /* Orange accent */
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+  cursor: pointer;
+  display: none; /* Hidden by default, will show on small screens */
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 4px 0;
+  background-color: #fff;
+  font-size: 3rem;
+}
+
+/* Responsive styles for navbar */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

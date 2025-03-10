@@ -1,0 +1,28 @@
+{
+    "coaches": [
+      {
+        "id": "bianca",
+        "name": "Bianca Păun",
+        "subtitle": "Antrenor de atletism / Cofondator B&B Team",
+        "bio": "Secția de atletism a Asociației Clubul Sportiv B&B Team este coordonată de doamna Paun Bianca Cristina, antrenor de atletism cu o experiență de peste 10 ani în pregătirea sportivilor.\n\nCu o pasiune puternică pentru sport, atât ca sportivă, cât și ca antrenor, PBC a început practicarea atletismului în copilărie la vârsta de 10 ani. Începând de la acea vârstă și până la 24 de ani, a obținut o serie de rezultate remarcabile și numeroase titluri naționale, de la categoria copiilor până la categoria seniorilor; a fost campioană națională și componentă a lotului național al României de atletism, atât la nivel de juniori, cât și la tineret și seniori.S-a retras din sportul de performanță pentru a absolvi Facultatea de Psihologie și Științele Educației și pentru a-și finaliza studiile prin absolvirea unui master în Consiliere Psihologică și Educațională, precum și a Școlii Naționale de Antrenori, specializarea atletism.\n\nDin anul 2016, a reintrat în activitatea de performanță ca sportivă în cadrul competițiilor de Masters, unde a câștigat numeroase titluri naționale cu recorduri naționale, iar din anul 2022 și-a extins participarea în cadrul Campionatelor Balcanice, Europene și Mondiale, unde a obținut titlul de campioană balcanică, campioană europeană și vicecampioană mondială la proba de 400 m plat.\n\nCa antrenor, experiența ei include antrenarea atleților de toate vârstele și nivelurile de performanță. A lucrat atât cu copii începători, cât și cu atleți de performanță, ceea ce a făcut-o să își dezvolte o serie de abilități și metode eficiente de antrenament. Cu sportivii antrenați, a obținut rezultate foarte bune; majoritatea dintre ei au urcat pe podium și au obținut medalii de aur, argint și bronz în cadrul campionatelor naționale la diverse categorii de vârstă, de la copii și juniori până la tineret, la probe diferite, cum ar fi 60 m plat, 100 m, 200 m, 300 m, 400 m plat, 800 m, lungime.\n\nÎi place să lucreze cu oamenii, fiind și absolventă de psihologie și pedagogie, și să îi ajute să își descopere și să își exploateze adevăratul potențial. Are o atitudine pozitivă și o capacitate de a motiva și de a-i inspira pe cei din jur. Îi plac provocările și este pregătită să muncească din greu pentru a obține rezultatele dorite. Are abilități excelente de comunicare și lucrează foarte bine și în echipă, calități care sunt esențiale pentru a putea colabora eficient cu sportivii și colegii de club.\n\nScopul ei este nu doar să îmbunătățească performanțele fizice, ci și să formeze caractere și mentalități puternice, capabile să reziste provocărilor și să fie pregătite să depășească obstacolele.",
+        "image": "/images/coach1.jpeg",
+        "page": "/coaches/bianca"
+      },
+      {
+        "id": "jane",
+        "name": "Jane Doe",
+        "subtitle": "Track & Field Coach",
+        "bio": "Jane specializes in track events and has trained several champions...",
+        "image": "/images/coach2.jpeg",
+        "page": "/coaches/jane"
+      },
+      {
+        "id": "alex",
+        "name": "Alex Doe",
+        "subtitle": "Strength & Conditioning Coach",
+        "bio": "Alex focuses on strength and conditioning as well as endurance training...",
+        "image": "/images/coach3.jpeg",
+        "page": "/coaches/alex"
+      }
+    ]
+  }

@@ -1,0 +1,10 @@
+.coaches {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-left: 10vh;
+}
+
+.coaches p {
+    font-size: 2.5em;
+}
