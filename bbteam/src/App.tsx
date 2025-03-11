@@ -9,13 +9,11 @@ import Coaches from './pages/Coaches';
 import Contact from './pages/Contact';
 import Players from './pages/Players';
 import CoachDetail from './pages/CoachDetail';
-import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 const App: React.FC = () => {
   return (
     <BrowserRouter>
-      <ScrollToTop />
       <div className="app-container">
         <Header />
         <main>
