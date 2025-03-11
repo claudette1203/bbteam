@@ -7,12 +7,10 @@
   text-align: left;
   color: #fff;
   
-  /* Adjust padding so content isn’t hidden behind a fixed navbar */
   padding: 100px 20px;
   height: 70vh;
 }
 
-/* The overlay */
 .hero::before {
   content: "";
   position: absolute;
@@ -20,11 +18,10 @@
   left: 0;
   width: 100%;
   height: 100%; 
-  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
-  z-index: 0; /* behind the text */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0; 
 }
 
-/* Ensure text and buttons sit above the overlay */
 .hero > * {
   position: relative;
   margin-left: 5vh;
@@ -56,4 +53,27 @@
 
 .cta-button:hover {
   background-color: #e59400;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px 10px;
+    height: 50vh;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-top: 10vh;
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+  }
+
+  .cta-button {
+    padding: 8px 16px;
+    font-size: 1.5rem;
+  }
 }

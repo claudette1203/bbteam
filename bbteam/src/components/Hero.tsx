@@ -25,7 +25,6 @@ const Hero: React.FC<HeroProps> = ({
     >
       <h1>{heading}</h1>
       <p>{subheading}</p>
-      {/* Use <a> if linking to external page, or <NavLink> if it's within your React Router */}
       <a href={buttonLink} className="cta-button">
         {buttonText}
       </a>
