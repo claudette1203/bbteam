@@ -13,17 +13,21 @@ const Coaches: React.FC = () => {
           buttonLink="/contact"
         />
         <div className="coaches">
-          <p>Antrenorii noștri</p>
+          <h1>Antrenorii noștri</h1>
         </div>
         <Player
           sport="ATLETISM"
           peopleNames={["Bianca Păun", "Jane Doe", "Alex Doe"]}
           peopleImages={[
             "/images/coach1.jpeg",
-            "/images/coach1.jpeg", // updated for variety if needed
+            "/images/coach1.jpeg",
             "/images/coach1.jpeg"
           ]}
-          peoplePages={["/coaches/bianca", "/coaches/jane", "/coaches/alex"]}
+          peopleDescription={[
+            "Bianca Păun este antrenor de atletism la BB Team YOYOYO.",
+            "Jane Doe este inchis in casa si nu poate fi contactata.",
+            "Alex Doe este un betiv simpatic care uneori are treaba. Alteori alearga."
+          ]}
         />
       </>
     );

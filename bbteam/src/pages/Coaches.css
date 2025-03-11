@@ -1,10 +1,18 @@
 .coaches {
     display: flex;
     flex-direction: column;
-    margin-top: 10vh;
-    margin-left: 10vh;
+    align-items: center;
+    gap: 2rem;
+
+    padding-top: 2rem;
 }
 
-.coaches p {
-    font-size: 2.5em;
+.coaches h1 {
+    font-size: 5rem;
+}
+
+@media (max-width: 768px) {
+    .coaches h1 {
+        font-size: 2.5rem;
+    }
 }
