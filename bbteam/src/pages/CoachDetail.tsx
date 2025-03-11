@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import coachesData from '../data/coaches.json';
 import './CoachDetail.css';
 
 interface Coach {
@@ -14,8 +13,19 @@ interface Coach {
 
 const CoachDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
-  console.log("Current coach id:", id);
-  const coach: Coach | undefined = coachesData.coaches.find(c => c.id === id);
+  const [coach, setCoach] = useState<Coach | undefined>(undefined);
+
+  useEffect(() => {
+    fetch('./data/coaches.json')
+      .then(response => response.json())
+      .then(data => {
+        const foundCoach = data.coaches.find((c: Coach) => c.id === id);
+        setCoach(foundCoach);
+      })
+      .catch(error => {
+        console.error('Error fetching coaches data:', error);
+      });
+  }, [id]);
 
   if (!coach) {
     return <p>Coach not found.</p>;
