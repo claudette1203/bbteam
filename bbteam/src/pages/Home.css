@@ -20,6 +20,15 @@
   line-height: 1.5;
 }
 
+.facts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 30px;
+}
+
 @media (max-width: 768px) {
   .info-section {
     max-width: 90%;
@@ -33,5 +42,9 @@
 
   .info-section p {
     font-size: 1rem;
+  }
+
+  .facts {
+    padding-top: 20px;
   }
 }

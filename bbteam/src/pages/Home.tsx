@@ -1,6 +1,20 @@
 import React from 'react';
 import './Home.css';
 import Hero from '../components/Hero';
+import Fact, { FactT } from '../components/Fact';
+
+const facts= [
+  {
+    num: 7,
+    fact: "Medalii de aur national printre sportivii noștri. Performanțele sportivilor noștri sunt recunoscute la nivel național.",
+    image: "public/images/medal.jpeg"
+  }, 
+  {
+    num: 30,
+    fact: "Ani de experienta in antrenat sportivi. Echipa noastra este formata din profesionisti cu experienta.",
+    image: "public/images/athlete.webp"
+  }
+]
 
 const Home: React.FC = () => {
   return (
@@ -37,6 +51,11 @@ const Home: React.FC = () => {
             fermentum orci est non libero. Sed sit amet nulla eget purus
             tincidunt aliquam. Nulla facilisi.
           </p>
+        </section>
+        <section className="facts">
+          {facts.map((fact, index) => (
+            <Fact key={index} fact={fact} />
+          ))}
         </section>
       </div>
     </>
