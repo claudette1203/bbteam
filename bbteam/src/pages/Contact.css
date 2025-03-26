@@ -12,7 +12,9 @@
 .contact p {
     margin-bottom: 2rem;
     text-align: center;
+    font-size: 1.5rem;
     max-width: 600px;
+    color: var(--primary-color);
 }
 
 .contact form {
@@ -26,7 +28,7 @@
 .contact label {
     display: flex;
     flex-direction: column;
-    font-weight: bold;
+    font-size: 2rem;
 }
 
 .contact input,
@@ -34,15 +36,16 @@
     padding: 0.5rem;
     font-size: 1rem;
     margin-top: 0.5rem;
-    border: 1px solid #ccc;
+    border: 1px solid var(--secondary-color-light);
     border-radius: 4px;
 }
 
 .contact button {
     padding: 0.75rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-family: var(--title-font);
     background-color: transparent;
-    color: white;
+    color: var(--secondary-color-light);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -68,7 +71,7 @@
     bottom: 0;
     width: 100%;
     height: 0;
-    background-color: #ffa500;
+    background-color: var(--primary-color);
     transition: height 0.3s ease;
     z-index: -1;
 }
@@ -78,7 +81,7 @@
 }
 
 .contact button:hover {
-    color: #fff;
+    color: var(--secondary-color-light);
 }
 
 .contact button:active {

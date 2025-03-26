@@ -31,7 +31,7 @@
     justify-content: flex-start;
 
     padding-left: 30px;
-    border-left: 1px solid #FFF;
+    border-left: 1px solid var(--secondary-color-light);
 }
 
 .fact .fact-text h2 {
@@ -43,7 +43,7 @@
     font-size: 18px;
     font-weight: 400;
 
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--details-font);
 }
 
 /* Media query for mobile devices */
@@ -54,7 +54,7 @@
         gap: 20px;
 
         padding-left: 10px;
-        border-left: 1px solid #FFF;
+        border-left: 1px solid var(--secondary-color-light);
     }
 
     .fact .fact-image,

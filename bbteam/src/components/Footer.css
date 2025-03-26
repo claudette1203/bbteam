@@ -1,6 +1,6 @@
 .footer-divider {
   border: none;
-  border-top: 1px solid #FFF;
+  border-top: 1px solid var(--secondary-color);
   margin: 20px auto;
   width: 100%;
 }
@@ -36,7 +36,7 @@
 }
 
 .footer .menu a {
-  color: #FFF;
+  color: var(--secondary-color);
   text-decoration: none;
   overflow: hidden;
 
@@ -44,7 +44,7 @@
 }
 
 .footer .menu a:hover {
-  color: #ffa500;
+  color: var(--primary-color);
 }
 
 .footer .social {
@@ -56,14 +56,14 @@
 }
 
 .footer .social i {
-  color: #FFF;
+  color: var(--secondary-color-light);
   font-size: 1.5rem;
 
   transition: all 0.3s ease;
 }
 
 .footer .social i:hover {
-  color: #ffa500;
+  color: var(--primary-color);
 }
 
 .footer p {

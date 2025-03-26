@@ -5,10 +5,6 @@ const Footer: React.FC = () => {
   return <>
     <hr className="footer-divider" />
     <footer className="footer">
-      {/* <div className="logo">
-        <h1>B&amp;B Team</h1>
-        <img src="/images/logo.png" alt="B&amp;B Team Logo" />
-      </div> */}
       <div className="menu">
         <a href="/">ACASĂ</a>
         <a href="/sports">SPORTURI</a>

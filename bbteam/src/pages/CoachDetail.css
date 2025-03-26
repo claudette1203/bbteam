@@ -1,6 +1,3 @@
-/* Import the Roboto font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 .coach-detail { 
     display: flex;
     flex-direction: column;
@@ -27,16 +24,16 @@
 }
 
 .coach-detail .details .subtitle {
-    color: rgb(184, 183, 183);
+    color: var(--secondary-color);
     font-size: 1.5rem;
 }
 
 .coach-detail .details h1{
-    color: #ffa500;
+    color: var(--primary-color);
 }
 
 .coach-detail .details p{
-    color: #fff;
+    color: var(--secondary-color-light);
     font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--details-font);
 }

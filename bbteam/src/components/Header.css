@@ -1,17 +1,15 @@
-/* Remove default body margin/padding */
 html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Navbar styling */
 .navbar.fixed {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #1a0d24; 
-  color: #fff;
+  background-color: var(--background-color);
+  color: var(--secondary-color-light);
   padding: 10px 20px;
   z-index: 999;
   display: flex;
@@ -22,40 +20,36 @@ html, body {
 .navbar .logo {
   display: flex;
   flex-direction: row;
-  align-items: center; /* Vertically center image and text */
-  gap: 10px; /* Optional: add some space between the logo image and text */
+  align-items: center;
+  gap: 10px; 
 }
 
 .navbar .logo img {
-  width: 100px; /* Adjust the size as needed */
+  width: 100px; 
   height: auto;
 }
 
-
-/* Logo styling */
 .logo h1 {
   margin: 0;
   font-size: 2rem;
   font-weight: bold;
 }
 
-/* Menu styling */
 .menu {
   display: flex;
   gap: 20px;
 }
 
-/* Styling for menu items */
 .item {
   position: relative;
-  color: #fff;
+  color: var(--secondary-color-light);
   text-decoration: none;
   font-weight: 500;
   padding: 8px 12px;
   border-radius: 4px;
   transition: color 0.3s ease;
   font-size: 1.5rem;
-  overflow: hidden; /* Ensure the pseudo-element doesn't spill out */
+  overflow: hidden; 
 }
 
 .item::after {
@@ -64,29 +58,27 @@ html, body {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 0;                   /* Start with zero height */
-  background-color: #ffa500;   /* Orange color */
+  height: 0;                  
+  background-color: var(--primary-color);
   transition: height 0.3s ease;
-  z-index: -1;                 /* Place behind the text */
+  z-index: -1;                 
 }
 
 .item:hover::after {
-  height: 100%;                /* Expand to full height on hover */
+  height: 100%;                
 }
 
 .item:hover {
-  color: #fff;
-  /* Remove the background-color change since the pseudo-element handles it */
+  color: var(--secondary-color-light);
 }
 
 .active {
-  border-bottom: 2px solid #ffa500; /* Orange accent */
+  border-bottom: 2px solid var(--primary-color);
 }
 
-/* Hamburger Menu Styles */
 .hamburger {
   cursor: pointer;
-  display: none; /* Hidden by default, will show on small screens */
+  display: none; 
 }
 
 .bar {
@@ -94,11 +86,10 @@ html, body {
   width: 25px;
   height: 3px;
   margin: 4px 0;
-  background-color: #fff;
+  background-color: var(--secondary-color-light);
   font-size: 3rem;
 }
 
-/* Responsive styles for navbar */
 @media (max-width: 768px) {
   .menu {
     display: none;

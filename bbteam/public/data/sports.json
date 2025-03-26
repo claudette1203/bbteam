@@ -1,0 +1,244 @@
+{
+  "sports": [
+    {
+      "id": 1,
+      "name": "Alpinism si escalada",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/atletism.jpg",
+      "active": false
+    },
+    {
+      "id": 2,
+      "name": "Arte martiale",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/arte-martiale.jpeg",
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "Atletism",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/atletism.jpg",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Automobilism sportiv",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/automobilism-sportiv.jpeg",
+      "active": false
+    },
+    {
+      "id": 5,
+      "name": "Badminton",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/badminton.jpeg",
+      "active": false
+    },
+    {
+      "id": 6,
+      "name": "Baschet",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/baschet.jpeg",
+      "active": false
+    },
+    {
+      "id": 7,
+      "name": "Bowling",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/bowling.jpeg",
+      "active": false
+    },
+    {
+      "id": 8,
+      "name": "Box",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/box.jpeg",
+      "active": false
+    },
+    {
+      "id": 9,
+      "name": "Ciclism",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/ciclism.jpeg",
+      "active": false
+    },
+    {
+      "id": 10,
+      "name": "Culturism si fitness",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/culturism-si-fitness.jpeg",
+      "active": false
+    },
+    {
+      "id": 11,
+      "name": "Dans sporitv",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/dans-sportiv.jpeg",
+      "active": false
+    },
+    {
+      "id": 12,
+      "name": "Darts",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/darts.jpeg",
+      "active": false
+    },
+    {
+      "id": 13,
+      "name": "Fotbal",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/fotbal.jpeg",
+      "active": false
+    },
+    {
+      "id": 14,
+      "name": "Fotbal tenis CAJ",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/fotbal-tenis-caj.jpeg",
+      "active": false
+    },
+    {
+      "id": 15,
+      "name": "Haltere",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/haltere.jpeg",
+      "active": false
+    },
+    {
+      "id": 16,
+      "name": "Handbal",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/handbal.jpeg",
+      "active": false
+    },
+    {
+      "id": 17,
+      "name": "Judo",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/judo.jpeg",
+      "active": false
+    },
+    {
+      "id": 18,
+      "name": "Karate",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/karate.jpeg",
+      "active": false
+    },
+    {
+      "id": 19,
+      "name": "Lupte",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/lupte.jpeg",
+      "active": false
+    },
+    {
+      "id": 20,
+      "name": "Natatie si pentatlon modern",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/natatie-si-pentatlon-modern.jpeg",
+      "active": false
+    },
+    {
+      "id": 21,
+      "name": "Oina",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/oina.jpeg",
+      "active": false
+    },
+    {
+      "id": 22,
+      "name": "Orientare",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/orientare.jpeg",
+      "active": false
+    },
+    {
+      "id": 23,
+      "name": "Powerlifting",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/powerlifting.jpeg",
+      "active": false
+    },
+    {
+      "id": 24,
+      "name": "Rugby",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/rugby.jpeg",
+      "active": false
+    },
+    {
+      "id": 25,
+      "name": "Schi biatlon",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/schi-biatlon.jpeg",
+      "active": false
+    },
+    {
+      "id": 26,
+      "name": "Scrima",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/scrima.jpeg",
+      "active": false
+    },
+    {
+      "id": 27,
+      "name": "Tenis de masa",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/tenis-de-masa.jpeg",
+      "active": false
+    },
+    {
+      "id": 28,
+      "name": "Tir sportiv",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/tir-sportiv.jpeg",
+      "active": false
+    },
+    {
+      "id": 29,
+      "name": "Triatlon",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/triatlon.jpeg",
+      "active": false
+    },
+    {
+      "id": 30,
+      "name": "Volei",
+      "shortDescription": "Vom revenii in curand cu mai multe detalii...",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "image": "/images/volei.jpeg",
+      "active": false
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-import Player from "../components/Player";
+import Coach from "../components/Coach";
 import "./Coaches.css";
 
 const Coaches: React.FC = () => {
@@ -15,7 +15,7 @@ const Coaches: React.FC = () => {
         <div className="coaches">
           <h1>Antrenorii noștri</h1>
         </div>
-        <Player
+        <Coach
           sport="ATLETISM"
           peopleNames={["Bianca Păun", "Jane Doe", "Alex Doe"]}
           peopleImages={[

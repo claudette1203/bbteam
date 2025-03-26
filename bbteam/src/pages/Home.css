@@ -1,23 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-  
-.info-section {
-  margin: 0 auto;
-  padding: 20px 0;
-
-  width: 80%;
-  text-align: left;
-  font-family: 'Roboto', sans-serif;
-  color: #fff;
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
 }
 
-.info-section h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+h2 {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.info-section {
+  margin: 0 auto;
+  width: 80%;
+  text-align: left;
+  font-family: var(--details-font);
+  color: var(--secondary-color-light);
 }
 
 .info-section p {
   font-size: 1.125rem;
   line-height: 1.5;
+  align-content: stretch;
+}
+
+.info-section ul {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  align-content: stretch;
+  margin-left: 100px;
 }
 
 .facts {
@@ -30,18 +43,24 @@
 }
 
 @media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .info-section {
     max-width: 90%;
     margin: 5vh auto;
     padding: 0 10px;
   }
 
-  .info-section h2 {
-    font-size: 1.5rem;
-  }
-
   .info-section p {
     font-size: 1rem;
+  }
+
+  .info-section ul {
+    font-size: 1rem;
+    margin-left: 20px;
   }
 
   .facts {

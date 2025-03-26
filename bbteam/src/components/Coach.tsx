@@ -1,14 +1,14 @@
 import React from 'react';
-import './Player.css';
+import './Coach.css';
 
-interface PlayerProps {
+interface CoachProps {
   sport: string;
   peopleNames: string[];
   peopleImages: string[];
   peopleDescription: string[];
 }
 
-const Player: React.FC<PlayerProps> = ({
+const Coach: React.FC<CoachProps> = ({
   sport,
   peopleNames,
   peopleImages,
@@ -35,4 +35,4 @@ const Player: React.FC<PlayerProps> = ({
   );
 };
 
-export default Player;
+export default Coach;

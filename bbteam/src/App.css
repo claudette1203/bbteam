@@ -1,6 +1,6 @@
 .app-container {
-  background-color: #21112e; 
-  color: #fff;
+  background-color: var(--background-color); 
+  color: var(--secondary-color-light);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
