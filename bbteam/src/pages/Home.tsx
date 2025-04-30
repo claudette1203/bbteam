@@ -2,7 +2,6 @@ import React from 'react';
 import './Home.css';
 import Hero from '../components/Hero';
 import Fact from '../components/Fact';
-import ProfileCard from '../components/StoryCard';
 
 const facts= [
   {
@@ -54,7 +53,6 @@ const Home: React.FC = () => {
           </ul>
           <br />
         </section>
-        <ProfileCard />
       </div>
     </>
   );
