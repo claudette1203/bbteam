@@ -10,6 +10,7 @@ const Footer: React.FC = () => {
         <a href="/sports">SPORTURI</a>
         <a href="/coaches">ANTRENORI</a>
         <a href="/contact">CONTACT</a>
+        <a href="/legal">LEGAL</a>
       </div>
       <div className="social">
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">

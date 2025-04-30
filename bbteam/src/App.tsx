@@ -8,10 +8,12 @@ import Sports from './pages/Sports';
 import Coaches from './pages/Coaches';
 import Contact from './pages/Contact';
 import Players from './pages/Players';
-import CoachDetail from './pages/CoachDetail';
+import CoachDetail from './components/CoachDetail';
 import './App.css';
+import Legal from './pages/Legal';
 
 const App: React.FC = () => {
+
   return (
     <BrowserRouter>
       <div className="app-container">
@@ -25,6 +27,8 @@ const App: React.FC = () => {
             <Route path="/coaches/:id" element={<CoachDetail />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/players" element={<Players />} />
+            <Route path="/legal" element={<Legal />} />
+            <Route path="*" element={<div>404 Not Found</div>} />
           </Routes>
         </main>
         <Footer />

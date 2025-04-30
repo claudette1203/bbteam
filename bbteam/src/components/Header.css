@@ -8,10 +8,10 @@ html, body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--background-color);
+  background: transparent; /* changed to transparent */
   color: var(--secondary-color-light);
   padding: 10px 20px;
-  z-index: 999;
+  z-index: 1000; /* ensure header stays above the hero */
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Sport.css";
-import SportPop from "./SportPop";
+import DetailPop from "./DetailPop";
 
 interface Sport {
   id: number;
@@ -63,19 +63,16 @@ const Sport: React.FC<SportProps> = ({ id }) => {
         </button>
       </div>
       {showModal && (
-        <div 
-          className="modal-overlay" 
-          onClick={() => setShowModal(false)}
-        >
-          <div 
-            className="modal-content" 
-            onClick={(e) => e.stopPropagation()}
-          >
-            <SportPop id={sport.id} name={sport.name} shortDescription={sport.shortDescription} description={sport.description} image={sport.image} active={sport.active} ></SportPop>
-            <button 
-              className="modal-close" 
-              onClick={() => setShowModal(false)}
-            >
+        <div className="modal-overlay" onClick={() => setShowModal(false)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <DetailPop 
+              image={sport.image}
+              title={sport.name}
+              content={sport.description}
+              buttonText="înscrie-te acum!"
+              onButtonClick={() => window.location.href = "/contact"}
+            />
+            <button className="modal-close" onClick={() => setShowModal(false)}>
               înapoi
             </button>
           </div>
