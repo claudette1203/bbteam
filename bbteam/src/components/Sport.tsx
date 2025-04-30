@@ -5,7 +5,6 @@ import DetailPop from "./DetailPop";
 interface Sport {
   id: number;
   name: string;
-  shortDescription: string;
   description: string;
   image: string;
   active: boolean;
@@ -38,23 +37,26 @@ const Sport: React.FC<SportProps> = ({ id }) => {
 
   return (
     <div className="sport-detail">
-      {imageError ? (
-        <div className="sport-icon-fallback">
-          <i className="fas fa-futbol"></i>
+      <div className="sport-image-container">
+        {imageError ? (
+          <div className="sport-icon-fallback">
+            <i className="fas fa-futbol"></i>
+          </div>
+        ) : (
+          <img
+            src={sport.image}
+            alt={sport.name}
+            onError={() => setImageError(true)}
+            style={{
+              filter: sport.active ? "none" : "grayscale(1)"
+            }}
+          />
+        )}
+        <div className="sport-name-overlay">
+          <h1>{sport.name}</h1>
         </div>
-      ) : (
-        <img
-          src={sport.image}
-          alt={sport.name}
-          onError={() => setImageError(true)}
-          style={{
-            filter: sport.active ? "none" : "grayscale(1)"
-          }}
-        />
-      )}
+      </div>
       <div className="details">
-        <h1>{sport.name}</h1>
-        <p className="short-description">{sport.shortDescription}</p>
         <button 
           disabled={!sport.active}
           onClick={() => setShowModal(true)}

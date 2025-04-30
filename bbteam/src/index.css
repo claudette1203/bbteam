@@ -1,7 +1,8 @@
 /* A simple reset */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 /* Define global design variables */
 :root {
   --background-color: #21112e;
@@ -10,7 +11,7 @@
   --secondary-color-light: #fff;   
 
   --title-font: 'Bebas Neue', sans-serif;
-  --details-font: 'Roboto', sans-serif;
+  --details-font: 'Montserrat', sans-serif;
 }
 
 * {

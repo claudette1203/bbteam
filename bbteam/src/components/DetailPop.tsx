@@ -13,8 +13,6 @@ const DetailPop: React.FC<DetailPopProps> = ({
   image,
   title,
   content,
-  buttonText,
-  onButtonClick,
 }) => {
   return (
     <div className="detail-pop">
@@ -22,11 +20,6 @@ const DetailPop: React.FC<DetailPopProps> = ({
       <div className="details">
         <h1>{title}</h1>
         <p>{content}</p>
-        {buttonText && (
-          <button onClick={onButtonClick}>
-            {buttonText}
-          </button>
-        )}
       </div>
     </div>
   );

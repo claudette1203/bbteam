@@ -3,7 +3,6 @@
     {
       "id": 1,
       "name": "Atletism",
-      "shortDescription": "Vom reveni in curand cu mai multe detalii...",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
       "image": "/images/atletism.jpg",
       "active": true
@@ -11,7 +10,6 @@
     {
       "id": 2,
       "name": "Baschet",
-      "shortDescription": "Vom reveni in curand cu mai multe detalii...",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
       "image": "/images/basket.jpeg",
       "active": false
@@ -19,7 +17,6 @@
     {
       "id": 3,
       "name": "Dans sporitv",
-      "shortDescription": "Vom reveni in curand cu mai multe detalii...",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
       "image": "/images/dans.png",
       "active": false
@@ -27,7 +24,6 @@
     {
       "id": 4,
       "name": "Natatie si pentatlon modern",
-      "shortDescription": "Vom reveni in curand cu mai multe detalii...",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
       "image": "/images/natatie.jpg",
       "active": false
@@ -35,7 +31,6 @@
     {
       "id": 5,
       "name": "Tenis de masa",
-      "shortDescription": "Vom reveni in curand cu mai multe detalii...",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
       "image": "/images/tenis.jpg",
       "active": false
@@ -43,7 +38,6 @@
     {
       "id": 6,
       "name": "Patinaj viteza",
-      "shortDescription": "Vom reveni in curand cu mai multe detalii...",
       "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
       "image": "/images/patinaj.png",
       "active": false
