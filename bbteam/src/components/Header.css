@@ -94,11 +94,18 @@ html, body {
   .menu {
     display: none;
     flex-direction: column;
-    width: 100%;
+    position: absolute;
+    background: var(--background-color);
+    /* padding: 20px; */
+    /* right: 20px; */
+    width: 80%;
   }
 
   .menu.open {
     display: flex;
+    top: 0;
+    left: 5%;
+    padding: 20px;
   }
 
   .hamburger {

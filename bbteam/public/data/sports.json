@@ -3,42 +3,39 @@
     {
       "id": 1,
       "name": "Atletism",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
+      "location": "Sala de atletism Metrom și Stadionul de atletism în cadrul Bazei Sportive Carpați",
+      "hours": "Miercuri și vineri: 18:00",
+      "price": "200 lei pe lună",
       "image": "/images/atletism.jpg",
       "active": true
     },
     {
       "id": 2,
       "name": "Baschet",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
       "image": "/images/basket.jpeg",
       "active": false
     },
     {
       "id": 3,
       "name": "Dans sporitv",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
       "image": "/images/dans.png",
       "active": false
     },
     {
       "id": 4,
       "name": "Natatie si pentatlon modern",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
       "image": "/images/natatie.jpg",
       "active": false
     },
     {
       "id": 5,
       "name": "Tenis de masa",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
       "image": "/images/tenis.jpg",
       "active": false
     },
     {
       "id": 6,
       "name": "Patinaj viteza",
-      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc nec",
       "image": "/images/patinaj.png",
       "active": false
     }

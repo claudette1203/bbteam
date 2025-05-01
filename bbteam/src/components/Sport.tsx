@@ -5,7 +5,9 @@ import DetailPop from "./DetailPop";
 interface Sport {
   id: number;
   name: string;
-  description: string;
+  location: string;
+  hours: string;
+  price: string;
   image: string;
   active: boolean;
 }
@@ -70,10 +72,10 @@ const Sport: React.FC<SportProps> = ({ id }) => {
             <DetailPop 
               image={sport.image}
               title={sport.name}
-              content={sport.description}
-              buttonText="înscrie-te acum!"
-              onButtonClick={() => window.location.href = "/contact"}
-            />
+              location={sport.location}
+              hours={sport.hours}
+              price={sport.price}
+              />
             <button className="modal-close" onClick={() => setShowModal(false)}>
               înapoi
             </button>

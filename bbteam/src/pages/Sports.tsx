@@ -55,7 +55,7 @@ const Sports: React.FC = () => {
         </div>
         {displayCount < sortedSports.length && (
           <button onClick={() => setDisplayCount(displayCount + colCount * 2)}>
-            Show More
+            Mai multe...
           </button>
         )}
       </div>

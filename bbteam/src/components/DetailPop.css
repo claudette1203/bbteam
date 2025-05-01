@@ -23,9 +23,21 @@
 }
 
 .detail-pop .details p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: var(--details-font);
     color: var(--secondary-color-light);
+}
+
+.detail-pop .details h1 {
+    align-self: center;
+    padding: 10px;
+}
+
+.detail-pop .details .value {
+    color: var(--primary-color);
+    font-family: var(--title-font);
+    font-size: 1.5rem;
+    margin-left: 20px;
 }
 
 @media (max-width: 768px) {
@@ -43,5 +55,9 @@
         width: 100%;
         align-items: center;
         margin-bottom: 10px;
+    }
+
+    .detail-pop .details .value {
+        margin-left: 0;
     }
 }

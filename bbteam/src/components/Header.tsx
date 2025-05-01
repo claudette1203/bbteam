@@ -21,7 +21,6 @@ const Header: React.FC = () => {
 
   return (
     <>
-      {/* Fixed Navbar */}
       <nav className="navbar fixed">
         <div className="logo">
           <img src="/images/logo.png" alt="B&amp;B Team Logo" />
@@ -32,6 +31,7 @@ const Header: React.FC = () => {
             <NavLink
               key={index}
               to={item.path}
+              onClick={() => setIsMenuOpen(false)}
               className={({ isActive }) =>
                 isActive ? "item active" : "item"
               }

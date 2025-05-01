@@ -24,10 +24,24 @@ h2 {
   border-radius: 10px;
 }
 
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
 .info-section p {
   font-size: 1.125rem;
   line-height: 1.5;
   align-content: stretch;
+  opacity: 0; 
+    animation: fadeInUp 1s ease-out forwards;
+    animation-delay: 1.8s; 
 }
 
 .info-section ul {
@@ -54,9 +68,9 @@ h2 {
   }
 
   .info-section {
-    max-width: 100%;
+    width: 80%;
     margin: 5vh auto;
-    padding: 10px;
+    padding: 15px;
   }
 
   .info-section p {
