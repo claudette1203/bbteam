@@ -7,8 +7,6 @@ interface DetailPopProps {
   location: string;
   hours: string;
   price: string;
-  buttonText?: string;
-  onButtonClick?: () => void;
 }
 
 const DetailPop: React.FC<DetailPopProps> = ({

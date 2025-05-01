@@ -27,7 +27,7 @@ const Home: React.FC = () => {
           buttonLink="/contact"
         />
       <div className="home-page">
-        <h2>DESPRE NOI</h2>
+        <h1>DESPRE NOI</h1>
         <section className="facts">
           {facts.map((fact, index) => (
             <Fact key={index} fact={fact} />

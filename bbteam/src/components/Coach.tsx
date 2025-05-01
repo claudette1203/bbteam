@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Coach.css";
-import DetailPop from "./DetailPop";
+import CoachPop from "./CoachPop";
 
 interface CoachItem {
   id: string;
@@ -49,12 +49,10 @@ const Coach: React.FC<CoachProps> = ({ sport, coaches }) => {
       {showModal && selectedCoach && (
         <div className="modal-overlay" onClick={() => setShowModal(false)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <DetailPop 
+            <CoachPop 
               image={selectedCoach.image}
               title={selectedCoach.name}
               content={selectedCoach.bio} 
-              buttonText="Contactează-ne acum!"
-              onButtonClick={() => window.location.href = "/contact"}
             />
             <button className="modal-close" onClick={() => setShowModal(false)}>
               înapoi

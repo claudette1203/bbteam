@@ -5,6 +5,11 @@
   margin-top: 30px;
 }
 
+.home-page h1 {
+  font-size: 5rem;
+  align-self: center;
+}
+
 h2 {
   margin: 0 auto;
   width: 80%;
@@ -62,9 +67,12 @@ h2 {
 }
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
   h2 {
     font-size: 2rem;
-    margin-bottom: 2rem;
   }
 
   .info-section {
