@@ -32,7 +32,7 @@ const Coaches: React.FC = () => {
   return (
     <>
       <Hero
-        backgroundImage="/images/coach.jpg"
+        backgroundImage="/images/antrenori.jpg"
         heading="Join B&amp;B Team"
         subheading="Vrei sa devii antrenor?"
         buttonText="Contactează-ne acum!"
