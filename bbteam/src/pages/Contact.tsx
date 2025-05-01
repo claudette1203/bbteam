@@ -24,11 +24,11 @@ const Contact: React.FC = () => {
 
     return (
         <div className="contact">
-            <h2>Contact</h2>
-            <p>Get in touch with us to learn more about our programs and services.</p>
+            <h2>Contactează-ne</h2>
+            <p>Ia legătura cu noi pentru a afla mai multe despre serviciile noastre</p>
             <form onSubmit={sendEmail}>
                 <label>
-                    Name:
+                    Nume si Prenume:
                     <input type="text" name="name" value={formData.name} onChange={handleChange} required />
                 </label>
                 <label>
@@ -36,15 +36,15 @@ const Contact: React.FC = () => {
                     <input type="email" name="email" value={formData.email} onChange={handleChange} required />
                 </label>
                 <label>
-                    Phone Number:
+                    Numar de telefon:
                     <input type="tel" name="phone" value={formData.phone} onChange={handleChange} required />
                 </label>
                 <label>
-                    Message:
+                    Mesaj:
                     <textarea name="message" value={formData.message} onChange={handleChange} required />
                 </label>
                 <button type="submit">
-                    <a>Send</a>
+                    <a>Trimite!</a>
                 </button>
             </form>
         </div>
