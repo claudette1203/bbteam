@@ -1,10 +1,10 @@
-.sports{
+.sports {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
     width: 70%;
-    justify-self: center;
+    margin: 0 auto;  
     padding: 1rem;
 }
 

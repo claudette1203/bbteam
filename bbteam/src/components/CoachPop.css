@@ -8,7 +8,7 @@
 }
 
 .detail-pop img {
-    width: 30%;
+    width: 300px;
 }
 
 .detail-pop .details {
@@ -52,6 +52,5 @@
 
     .detail-pop .details p {
         font-size: 1.2rem;
-        align-content: stretch;
     }
 }
