@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import "./Contact.css";
 
 const Contact: React.FC = () => {
@@ -8,6 +9,7 @@ const Contact: React.FC = () => {
         phone: '',
         message: ''
     });
+    const [popup, setPopup] = useState('');
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target;
@@ -19,7 +21,26 @@ const Contact: React.FC = () => {
 
     const sendEmail = (e: React.FormEvent) => {
         e.preventDefault();
-        console.log('Form Data:', formData);
+
+        emailjs.send(
+            'service_efz21ae',
+            'template_zwxp3gf',
+            { ...formData },
+            '8SZOf_V9kdV6mSbQC'
+        )
+        .then((result) => {
+            setPopup("Everything went fine! We will be in touch.");
+            setFormData({
+                name: '',
+                email: '',
+                phone: '',
+                message: ''
+            });
+            setTimeout(() => setPopup(''), 4000);
+        }, (error) => {
+            setPopup("Something went wrong, please try again later.");
+            setTimeout(() => setPopup(''), 4000);
+        });
     };
 
     return (
@@ -43,10 +64,9 @@ const Contact: React.FC = () => {
                     Mesaj:
                     <textarea name="message" value={formData.message} onChange={handleChange} required />
                 </label>
-                <button type="submit">
-                    <a>Trimite!</a>
-                </button>
+                <button type="submit">Trimite!</button>
             </form>
+            {popup && <div className="popup">{popup}</div>}
         </div>
     );
 };

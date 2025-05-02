@@ -13,12 +13,18 @@ const Footer: React.FC = () => {
         <a href="/legal">LEGAL</a>
       </div>
       <div className="social">
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-instagram"></i>
-        </a>
+          <a href="mailto:bbteam.brasov@gmail.com" target="_blank" rel="noopener noreferrer">
+            <i className="fas fa-envelope"></i>
+          </a>
+          <a href="tel:+40770812868" target="_blank" rel="noopener noreferrer">
+            <i className="fas fa-phone"></i>
+          </a>
+          <a href="https://www.instagram.com/b8b_team/" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.tiktok.com/@b.b_team" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-tiktok"></i>
+          </a>
       </div>
       <p>© {new Date().getFullYear()} B&amp;B Team. All rights reserved.</p>
     </footer>

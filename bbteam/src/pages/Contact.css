@@ -88,3 +88,13 @@
     background-color: #004494;
     transform: translateY(0);
 }
+
+.popup {
+    margin-top: 20px;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border-radius: 5px;
+    text-align: center;
+}
+
