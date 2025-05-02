@@ -1,0 +1,54 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: var(--background-color);
+    color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .modal-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    text-align: center;
+  }
+
+  .modal-content p {
+    font-size: 1rem;
+    text-align: left;
+    font-family: var(--details-font);
+    color: var(--secondary-color-light);
+  }
+
+  
+  .modal-close {
+    position: absolute;     /* now positioned relative to .modal-overlay */
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding-bottom: 2rem;
+    padding-top: 1rem;           /* <- shrink this */
+    line-height: 1;         /* keep it tight around the “×” */
+  }

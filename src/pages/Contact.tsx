@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import "./Contact.css";
+import TermsModal from '../components/TermsModal';
 
 const Contact: React.FC = () => {
     const [formData, setFormData] = useState({
@@ -43,6 +44,10 @@ const Contact: React.FC = () => {
         });
     };
 
+    const [isTermsModalOpen, setTermsModalOpen] = useState(false);
+    const openTermsModal = () => setTermsModalOpen(true);
+    const closeTermsModal = () => setTermsModalOpen(false);
+
     return (
         <div className="contact">
             <h2>Contactează-ne</h2>
@@ -64,8 +69,15 @@ const Contact: React.FC = () => {
                     Mesaj:
                     <textarea name="message" value={formData.message} onChange={handleChange} required />
                 </label>
+                <div className="privacy-container">
+                    <input type="checkbox" name="privacy" onChange={handleChange} required />
+                    <span className="privacy-text">
+                        Am citit si sunt de acord cu <a className="terms" onClick={openTermsModal}>Politica de confidentialitate</a>
+                    </span>
+                </div>
                 <button type="submit">Trimite!</button>
             </form>
+            <TermsModal isOpen={isTermsModalOpen} onClose={closeTermsModal} />
             {popup && <div className="popup">{popup}</div>}
         </div>
     );
