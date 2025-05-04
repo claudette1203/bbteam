@@ -29,7 +29,7 @@ const Contact: React.FC = () => {
             { ...formData },
             '8SZOf_V9kdV6mSbQC'
         )
-        .then((result) => {
+        .then((_result) => {
             setPopup("Mesajul dumneavoastră a fost trimis cu succes! Vă vom contacta în cel mai scurt timp.");
             setFormData({
                 name: '',
@@ -38,7 +38,7 @@ const Contact: React.FC = () => {
                 message: ''
             });
             setTimeout(() => setPopup(''), 4000);
-        }, (error) => {
+        }, (_error) => {
             setPopup("A apărut o eroare la trimiterea mesajului. Vă rugăm să încercați din nou mai târziu.");
             setTimeout(() => setPopup(''), 4000);
         });
