@@ -35,8 +35,8 @@
     },
     {
       "id": 6,
-      "name": "Patinaj viteza",
-      "image": "/images/patinaj.png",
+      "name": "PHandbal",
+      "image": "/images/handbal.jpg",
       "active": false
     }
   ]
