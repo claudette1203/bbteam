@@ -21,7 +21,7 @@ const Coaches: React.FC = () => {
   const [coachGroups, setCoachGroups] = useState<CoachGroup[]>([]);
 
   useEffect(() => {
-    fetch("/data/coaches.json")
+    fetch("./data/coaches.json")
       .then((response) => response.json())
       .then((data) => setCoachGroups(data.sports))
       .catch((error) =>
@@ -32,7 +32,7 @@ const Coaches: React.FC = () => {
   return (
     <>
       <Hero
-        backgroundImage="/images/antrenori.jpg"
+        backgroundImage="./images/antrenori.jpg"
         heading="Join B&amp;B Team"
         subheading="Vrei sa devii antrenor?"
         buttonText="Contactează-ne acum!"

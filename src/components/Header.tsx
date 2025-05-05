@@ -23,7 +23,7 @@ const Header: React.FC = () => {
     <>
       <nav className="navbar fixed">
         <div className="logo">
-          <img src="/images/logo.png" alt="B&amp;B Team Logo" />
+          <img src="./images/logo.png" alt="B&amp;B Team Logo" />
           <h1>B&amp;B Team</h1>
         </div>
         <div className={`menu ${isMenuOpen ? 'open' : ''}`}>

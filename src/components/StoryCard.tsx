@@ -27,7 +27,7 @@ const ProfileCard: React.FC = () => {
 
       <div className="profile-image">
         <img
-          src="/public/images/sports.jpg"
+          src="./images/sports.jpg"
           alt="Man with soccer ball"
         />
       </div>

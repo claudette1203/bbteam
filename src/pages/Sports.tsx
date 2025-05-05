@@ -27,7 +27,7 @@ const Sports: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    fetch("/data/sports.json")
+    fetch("./data/sports.json")
       .then(response => response.json())
       .then(data => setSports(data.sports))
       .catch(error => console.error("Error fetching sports data:", error));
@@ -39,7 +39,7 @@ const Sports: React.FC = () => {
   return ( 
     <>
       <Hero
-        backgroundImage="public/images/sports.jpg"
+        backgroundImage="./images/sports.jpg"
         heading="Join B&amp;B Team"
         subheading="Devin-o acum un atlet de top și alătură-te echipei noastre!"
         buttonText="Înscrie-te acum!"

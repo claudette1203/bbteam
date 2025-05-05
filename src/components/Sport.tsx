@@ -22,7 +22,7 @@ const Sport: React.FC<SportProps> = ({ id }) => {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    fetch("/data/sports.json")
+    fetch("./data/sports.json")
       .then(response => response.json())
       .then(data => {
         const foundSport = data.sports.find((s: Sport) => s.id === id);
