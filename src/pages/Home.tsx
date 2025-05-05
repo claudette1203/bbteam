@@ -7,12 +7,12 @@ const facts= [
   {
     num: 35,
     fact: "Peste 35 de medalii de aur, argint și bronz câștigate la competiții naționale de către sportivii antrenorilor noștri.",
-    image: "/images/medal.jpeg"
+    image: "images/medal.jpeg"
   }, 
   {
     num: 12,
     fact: "Ani de experienta in antrenat sportivi. Echipa noastra este formata din profesionisti cu experienta.",
-    image: "/images/athlete.webp"
+    image: "images/athlete.webp"
   }
 ]
 
@@ -20,7 +20,7 @@ const Home: React.FC = () => {
   return (
     <>
       <Hero
-          backgroundImage="track.jpeg"
+          backgroundImage="/images/track.jpeg"
           heading="Join B&amp;B Team"
           subheading="Devin-o acum un atlet de top și alătură-te echipei noastre!"
           buttonText="Înscrie-te acum!"
