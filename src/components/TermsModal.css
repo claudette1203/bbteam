@@ -33,7 +33,7 @@
     font-size: 1.125rem;
     color: var(--secondary-color-light);
     font-family: var(--details-font);
-    width: 100%;
+    max-width: 100%;
 }
 
   .modal-close {

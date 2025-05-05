@@ -114,3 +114,8 @@
 .privacy-text .terms {
     text-decoration: underline;
 }
+
+.privacy-text .terms:hover {
+    color: var(--secondary-color-light);
+    cursor: pointer;
+}
