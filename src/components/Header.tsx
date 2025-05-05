@@ -6,10 +6,8 @@ import './Hero.css';
 const Header: React.FC = () => {
   const menuItems = [
     { label: 'ACASĂ', path: '/' },
-    // { label: 'Noutăți', path: '/news' },
     { label: 'SPORTURI', path: '/sports' },
     { label: 'ANTRENORI', path: '/coaches' },
-    // { label: 'SPORTIVI', path: '/players' },
     { label: 'CONTACT', path: '/contact' },
   ];
 
