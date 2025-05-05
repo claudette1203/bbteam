@@ -73,7 +73,7 @@ const TermsModal: React.FC<TermsModalProps> = ({ isOpen, onClose }) => {
 
     return (
         <div className="modal-overlay">
-            <div className="modal-content">
+            <div className="terms-modal-content">
                 <h2>Terms and Conditions</h2>
                 {termsData.map((section, index) => (
                     <div key={index}>
