@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import "./Sport.css";
 import DetailPop from "./DetailPop";
+import "./Sport.css";
 
 interface Sport {
   id: number;
@@ -18,7 +18,6 @@ interface SportProps {
 
 const Sport: React.FC<SportProps> = ({ id }) => {
   const [sport, setSport] = useState<Sport | undefined>(undefined);
-  const [imageError, setImageError] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
@@ -40,26 +39,20 @@ const Sport: React.FC<SportProps> = ({ id }) => {
   return (
     <div className="sport-detail">
       <div className="sport-image-container">
-        {imageError ? (
-          <div className="sport-icon-fallback">
-            <i className="fas fa-futbol"></i>
-          </div>
-        ) : (
-          <img
-            src={sport.image}
-            alt={sport.name}
-            onError={() => setImageError(true)}
-            style={{
-              filter: sport.active ? "none" : "grayscale(1)"
-            }}
-          />
-        )}
+        <img
+          src={sport.image}
+          alt={sport.name}
+          onError={() => console.log(sport)}
+          style={{
+            filter: sport.active ? "none" : "grayscale(1)"
+          }}
+        />
         <div className="sport-name-overlay">
           <h1>{sport.name}</h1>
         </div>
       </div>
       <div className="details">
-        <button 
+        <button
           disabled={!sport.active}
           onClick={() => setShowModal(true)}
         >
@@ -69,13 +62,13 @@ const Sport: React.FC<SportProps> = ({ id }) => {
       {showModal && (
         <div className="modal-overlay" onClick={() => setShowModal(false)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <DetailPop 
+            <DetailPop
               image={sport.image}
               title={sport.name}
               location={sport.location}
               hours={sport.hours}
               price={sport.price}
-              />
+            />
             <button className="modal-close" onClick={() => setShowModal(false)}>
               înapoi
             </button>
