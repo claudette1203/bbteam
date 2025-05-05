@@ -6,37 +6,37 @@
       "location": "Sala de atletism Metrom și Stadionul de atletism în cadrul Bazei Sportive Carpați",
       "hours": "Miercuri și vineri: 18:00",
       "price": "200 lei pe lună",
-      "image": "/images/atletism.jpg",
+      "image": "./images/atletism.jpg",
       "active": true
     },
     {
       "id": 2,
       "name": "Baschet",
-      "image": "/images/basket.jpeg",
+      "image": "./images/basket.jpeg",
       "active": false
     },
     {
       "id": 3,
       "name": "Dans sporitv",
-      "image": "/images/dans.png",
+      "image": "./images/dans.png",
       "active": false
     },
     {
       "id": 4,
       "name": "Natatie si pentatlon modern",
-      "image": "/images/natatie.jpg",
+      "image": "./images/natatie.jpg",
       "active": false
     },
     {
       "id": 5,
       "name": "Tenis de masa",
-      "image": "/images/tenis.jpg",
+      "image": "./images/tenis.jpg",
       "active": false
     },
     {
       "id": 6,
       "name": "PHandbal",
-      "image": "/images/handbal.jpg",
+      "image": "./images/handbal.jpg",
       "active": false
     }
   ]
