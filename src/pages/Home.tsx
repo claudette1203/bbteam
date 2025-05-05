@@ -24,7 +24,7 @@ const Home: React.FC = () => {
           heading="Join B&amp;B Team"
           subheading="Devin-o acum un atlet de top și alătură-te echipei noastre!"
           buttonText="Înscrie-te acum!"
-          buttonLink="./contact"
+          buttonLink=".#contact"
         />
       <div className="home-page">
         <h1>DESPRE NOI</h1>
