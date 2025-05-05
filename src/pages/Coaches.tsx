@@ -36,7 +36,7 @@ const Coaches: React.FC = () => {
         heading="Join B&amp;B Team"
         subheading="Vrei sa devii antrenor?"
         buttonText="Contactează-ne acum!"
-        buttonLink="/contact"
+        buttonLink=".#contact"
       />
       <div className="coaches">
         <h1>Antrenorii noștri</h1>

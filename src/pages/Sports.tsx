@@ -43,7 +43,7 @@ const Sports: React.FC = () => {
         heading="Join B&amp;B Team"
         subheading="Devin-o acum un atlet de top și alătură-te echipei noastre!"
         buttonText="Înscrie-te acum!"
-        buttonLink="/contact"
+        buttonLink=".#contact"
       />
       <div className="sports">
         <h1>Alege-ți sportul!</h1>
