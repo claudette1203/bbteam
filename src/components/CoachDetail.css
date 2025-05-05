@@ -4,8 +4,6 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
-    padding: 0 10%;
 }
 
 .coach-detail img {
@@ -15,10 +13,10 @@
 }
 
 .coach-detail .details {
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     justify-content: center;
     gap: 15px;
 }

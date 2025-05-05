@@ -6,11 +6,11 @@ const Footer: React.FC = () => {
     <hr className="footer-divider" />
     <footer className="footer">
       <div className="menu">
-        <a href="/">ACASĂ</a>
-        <a href="/sports">SPORTURI</a>
-        <a href="/coaches">ANTRENORI</a>
-        <a href="/contact">CONTACT</a>
-        <a href="/legal">LEGAL</a>
+        <a href="./">ACASĂ</a>
+        <a href="./sports">SPORTURI</a>
+        <a href="./coaches">ANTRENORI</a>
+        <a href="./contact">CONTACT</a>
+        <a href="./legal">LEGAL</a>
       </div>
       <div className="social">
           <a href="mailto:bbteam.brasov@gmail.com" target="_blank" rel="noopener noreferrer">

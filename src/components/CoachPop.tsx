@@ -13,7 +13,7 @@ const DetailPop: React.FC<CoachPopProps> = ({
   content
 }) => {
   return (
-    <div className="detail-pop">
+    <div className="coach-pop">
       <div className="details">
         <h1>{title}</h1>
         <p dangerouslySetInnerHTML={{ __html: content.replace(/\n/g, "<br />") }} />

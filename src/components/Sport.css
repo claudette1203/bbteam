@@ -31,7 +31,7 @@
 }
 
 .sport-detail .details {
-    width: 300px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
