@@ -1,23 +1,23 @@
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+import './App.css';
+import CoachDetail from './components/CoachDetail';
 import Footer from './components/Footer';
-import Home from './pages/Home';
-import News from './pages/News';
-import Sports from './pages/Sports';
+import Header from './components/Header';
+import './index.css';
 import Coaches from './pages/Coaches';
 import Contact from './pages/Contact';
-import Players from './pages/Players';
-import CoachDetail from './components/CoachDetail';
-import './App.css';
+import Home from './pages/Home';
 import Legal from './pages/Legal';
+import News from './pages/News';
+import Players from './pages/Players';
+import Sports from './pages/Sports';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <div className="app-container">
         <Header />
         <main>
@@ -35,6 +35,6 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         </main>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
