@@ -20,7 +20,7 @@ const Home: React.FC = () => {
   return (
     <>
       <Hero
-          backgroundImage="/images/track.jpeg"
+          backgroundImage="./images/track.jpeg"
           heading="Join B&amp;B Team"
           subheading="Devin-o acum un atlet de top și alătură-te echipei noastre!"
           buttonText="Înscrie-te acum!"
