@@ -23,10 +23,10 @@ h2 {
   width: 60%;
   text-align: left;
   font-family: var(--details-font);
-  color: var(--background-color);
+  color: var(--secondary-color);
   font-size: 1.5rem;
-  background-color: var(--secondary-color);
   border-radius: 10px;
+  text-align: justify;
 }
 
 @keyframes fadeInUp {
