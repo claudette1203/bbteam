@@ -46,7 +46,6 @@
     font-family: var(--details-font);
 }
 
-/* Media query for mobile devices */
 @media (max-width: 768px) {
     .fact {
         width: 70%;

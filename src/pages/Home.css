@@ -23,7 +23,7 @@ h2 {
   width: 60%;
   text-align: left;
   font-family: var(--details-font);
-  color: var(--secondary-color);
+  color: var(--secondary-color-light);
   font-size: 1.5rem;
   border-radius: 10px;
   text-align: justify;

@@ -35,7 +35,7 @@ html, body {
   font-weight: bold;
 }
 
-.menu {
+.navbar.fixed .menu {
   display: flex;
   gap: 20px;
 }
@@ -76,39 +76,69 @@ html, body {
   border-bottom: 2px solid var(--primary-color);
 }
 
-.hamburger {
+.button-one {
+  --button-color: var(--primary-color);
+  background: transparent;
+  border: none;
+  padding: 0.25rem;
   cursor: pointer;
-  display: none; 
+  z-index: 1;
+  display: none;
 }
 
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 4px 0;
-  background-color: var(--secondary-color-light);
-  font-size: 3rem;
+.button-one .line {
+  transition: y 300ms ease-in 300ms, rotate 300ms ease-in, opacity 0ms 300ms;
+  transform-origin: center;
+}
+
+.button-one[aria-expanded="true"] .line {
+  transition: y 300ms ease-in, rotate 300ms ease-in 300ms, opacity 0ms 300ms;
+}
+
+.button-one[aria-expanded="true"] :is(.top, .bottom) {
+  y: 45;
+}
+
+.button-one[aria-expanded="true"] .top {
+  rotate: 45deg;
+}
+
+.button-one[aria-expanded="true"] .middle {
+  opacity: 0;
+}
+
+.button-one[aria-expanded="true"] .bottom {
+  rotate: -45deg;
 }
 
 @media (max-width: 768px) {
-  .menu {
-    display: none;
+  .navbar.fixed .menu.open {
+    transform: translateY(0);
+    opacity: 1;
+    padding: 20px;
+    pointer-events: auto;
+    top: 0;
+  }
+
+  .navbar.fixed .menu {
     flex-direction: column;
     position: absolute;
     background: var(--background-color);
-    /* padding: 20px; */
-    /* right: 20px; */
-    width: 80%;
-  }
-
-  .menu.open {
-    display: flex;
+    width: 100%;
     top: 0;
-    left: 5%;
-    padding: 20px;
+    left: 0;
+    padding: 20px 20px;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    pointer-events: none;
   }
 
-  .hamburger {
+  .active {
+    width: 70%;
+  }
+
+  .button-one {
     display: block;
   }
 }
