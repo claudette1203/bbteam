@@ -159,8 +159,19 @@
 }
 
 @media (max-width: 1200px) {
+    .sport-detail .details {
+        width: 100%;
+        align-items: flex-start;
+    }
+
     .sport-detail .details p {
         font-size: 1rem;
+    }
+
+    .sport-detail .details .value{
+        font-size: 1.2rem;
+        align-self: center;
+        text-align: center;
     }
 
     .modal-content {
@@ -173,5 +184,10 @@
         font-size: 1.2rem;
         padding: 20px;
         gap: 10px;
+    }
+
+    .sport-detail img {
+        width: 100%;
+        height: auto;
     }
 }

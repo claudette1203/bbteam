@@ -71,6 +71,9 @@
 }
 
 @media (max-width: 768px) {
+  .footer .menu {
+    font-size: 0.8rem;
+  }
   .footer .social {
     margin: 10px;
     padding-top: 60px;

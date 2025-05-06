@@ -9,6 +9,8 @@
 
 .coach-pop img {
     display: none;
+    width: 30%;
+    height: auto;
 }
 
 .coach-pop .details {
@@ -52,6 +54,7 @@
     }
 
     .coach-pop .details p {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
+        text-align: justify;
     }
 }

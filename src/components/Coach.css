@@ -37,8 +37,8 @@
 }
 
 .sport .people .person img {
-    width: 500px;
-    height: 600px;
+    width: 100%;
+    height: 60vh;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -139,6 +139,11 @@
 
     .sport .people .person {
         width: 100%;
+    }
+
+    .sport .people .person img {
+        width: 100%;
+        height: auto;
     }
 
     .sport .people .person .coach-name {

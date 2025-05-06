@@ -25,16 +25,6 @@
     width: 100%;
 }
 
-@media (max-width: 768px) {
-    .sports h1 {
-        font-size: 2.5rem;
-    }
-
-    .sports p {
-        font-size: 1rem;
-    }
-}
-
 .sports button {
     position: relative;
     overflow: hidden;
@@ -76,13 +66,31 @@
 }
 
 @media (max-width: 768px) {
-    .sports .modal-close {
-        font-size: 1.2rem;
-        padding: 10px;
+
+    .sports {
+        width: 80%;
+    }
+
+    .sports h1 {
+        font-size: 2.5rem;
+    }
+
+    .sports p {
+        font-size: 1rem;
+    }
+
+    .sports .sports-list {
+        width: 70%;
+        justify-content: center;
     }
 
     .sports button {
-        width: 300px;
-        margin: 0 auto;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    
+    .sports .modal-close {
+        font-size: 1.2rem;
+        padding: 10px;
     }
 }
