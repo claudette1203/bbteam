@@ -1,12 +1,72 @@
 <!doctype html>
-<html lang="en">
+<html lang="ro">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/images/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>B&BTeam</title>
+
+    <!-- 1. Unique, keyword-rich title -->
+    <title>B&B Team – Club Sportiv din Brașov | Fotbal, Baschet & Community</title>
+
+    <!-- 2. Compelling meta description -->
+    <meta
+      name="description"
+      content="B&B Team este clubul sportiv de top din Brașov. Antrenamente de fotbal, baschet și evenimente pentru toată familia. Înscrie-te acum!"
+    />
+
+    <!-- 3. Canonical URL -->
+    <link rel="canonical" href="https://www.bandbteam.ro/" />
+
+    <!-- 4. Open Graph (Facebook / LinkedIn) -->
+    <meta property="og:type"        content="website" />
+    <meta property="og:title"       content="B&B Team – Club Sportiv din Brașov" />
+    <meta property="og:description" content="Antrenamente de fotbal, baschet și evenimente B&B Team în Brașov." />
+    <meta property="og:url"         content="https://www.bandbteam.ro/" />
+    <meta property="og:image"       content="https://www.bandbteam.ro/images/og-image.png" />
+
+    <!-- 5. Twitter Cards -->
+    <meta name="twitter:card"        content="summary_large_image" />
+    <meta name="twitter:site"        content="@BandBTeamRO" />
+    <meta name="twitter:title"       content="B&B Team – Club Sportiv din Brașov" />
+    <meta name="twitter:description" content="Alătură-te antrenamentelor de fotbal și baschet organizate de B&B Team." />
+    <meta name="twitter:image"       content="https://www.bandbteam.ro/images/twitter-image.png" />
+
+    <!-- 6. Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsTeam",
+      "name": "B&B Team",
+      "url": "https://www.bandbteam.ro/",
+      "logo": "https://www.bandbteam.ro/images/logo.png",
+      "sport": ["Football", "Basketball"],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Brașov",
+        "addressCountry": "RO"
+      },
+      "sameAs": [
+        "https://www.facebook.com/BandBTeamRO",
+        "https://www.instagram.com/BandBTeamRO"
+      ]
+    }
+    </script>
+
+    <!-- 7. Preconnect for critical domains (e.g. fonts, CDN) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- 8. Sitemap & Robots -->
+    <!-- → add /sitemap.xml and /robots.txt at the site root -->
+    <link rel="sitemap" type="application/xml" href="https://www.bandbteam.ro/sitemap.xml" />
+
+    <!-- 9. Optional: verification tags -->
+    <!-- <meta name="google-site-verification" content="YOUR_GOOGLE_CODE" /> -->
+    <!-- <meta name="msvalidate.01" content="YOUR_BING_CODE" /> -->
+
   </head>
   <body>
+    <h1>B&amp;B Team – Club Sportiv din Brașov</h1>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
