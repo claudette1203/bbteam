@@ -24,12 +24,16 @@ const Footer: React.FC = () => {
             <i className="fas fa-phone"></i>
           </a>
         </Tooltip>
+        <Tooltip title="b8b_team">
           <a href="https://www.instagram.com/b8b_team/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
           </a>
+        </Tooltip>
+        <Tooltip title="b.b_team">
           <a href="https://www.tiktok.com/@b.b_team" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-tiktok"></i>
           </a>
+        </Tooltip>
       </div>
       <p>© {new Date().getFullYear()} B&amp;B Team. All rights reserved.</p>
     </footer>
