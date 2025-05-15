@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Tooltip } from '@mui/material';
 
 const Footer: React.FC = () => {
   return <>
@@ -13,12 +14,16 @@ const Footer: React.FC = () => {
         <a href=".#legal">LEGAL</a>
       </div>
       <div className="social">
+        <Tooltip title="bbteam.brasov@gmail.com">
           <a href="mailto:bbteam.brasov@gmail.com" target="_blank" rel="noopener noreferrer">
             <i className="fas fa-envelope"></i>
           </a>
+        </Tooltip>
+        <Tooltip title="+40 770 812 868">
           <a href="tel:+40770812868" target="_blank" rel="noopener noreferrer">
             <i className="fas fa-phone"></i>
           </a>
+        </Tooltip>
           <a href="https://www.instagram.com/b8b_team/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
           </a>
