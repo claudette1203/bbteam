@@ -9,6 +9,7 @@ const Footer: React.FC = () => {
         <a href=".#">ACASĂ</a>
         <a href=".#sports">SPORTURI</a>
         <a href=".#coaches">ANTRENORI</a>
+        <a href=".#results">REZULTATE</a>
         <a href=".#contact">CONTACT</a>
         <a href=".#legal">LEGAL</a>
       </div>

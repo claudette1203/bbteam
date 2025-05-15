@@ -8,6 +8,7 @@ const Header: React.FC = () => {
     { label: 'ACASĂ', path: '/' },
     { label: 'SPORTURI', path: '/sports' },
     { label: 'ANTRENORI', path: '/coaches' },
+    { label: 'REZULTATE', path: '/results' },
     { label: 'CONTACT', path: '/contact' },
   ];
 

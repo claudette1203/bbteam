@@ -1,0 +1,57 @@
+.results-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 70%;
+    margin: 0 auto;  
+    padding: 1rem;
+}
+  
+.results-page h1 {
+    font-size: 5rem;
+    align-self: center;
+}
+
+.results-page p {
+    font-size: 1.5rem;
+    color: var(--secondary-color-light);
+    font-family: var(--details-font);
+    text-align: center;
+}
+
+.results-page .players{
+    width: 100%;
+    gap: 0.4rem;
+}
+
+.results-page .players h2 {
+    font-size: 3rem;
+    color: var(--background-color);
+    align-items: flex-start;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .results-page {
+        width: 80%;
+    }
+    
+    .results-page h1 {
+        font-size: 2.5rem;
+    }
+
+    .results-page p {
+        font-size: 1rem;
+    }
+
+    .results-page .players h2 {
+        font-size: 1.3rem;
+        padding: 0.7rem;
+        margin-bottom: 0.5rem;
+    }
+}

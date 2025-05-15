@@ -14,6 +14,7 @@ import Legal from './pages/Legal';
 import News from './pages/News';
 import Players from './pages/Players';
 import Sports from './pages/Sports';
+import Results from './pages/Results';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -30,6 +31,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
             <Route path="/contact" element={<Contact />} />
             <Route path="/players" element={<Players />} />
             <Route path="/legal" element={<Legal />} />
+            <Route path="/results" element={<Results />} />
             <Route path="*" element={<div>404 Not Found</div>} />
           </Routes>
         </main>
