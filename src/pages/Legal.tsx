@@ -6,32 +6,32 @@ const Legal: React.FC = () => {
         <section className="info-section">
           <br />
           <p>
-            Asociatia Clubul Sportiv B&amp;B Team isi propune sa:
+            Asociația Clubul Sportiv B&amp;B Team își propune să:
           </p>
           <br />
           <ul>
             <li>
-              selecteze si sa pregateasca sportivi in vederea participarii acestora in competiţii de nivel local, national şi internaţional la ramurile sportive cuprinse in Certificatul de identitate sportiva;
+              selecteze și să pregătească sportivi în vederea participării acestora în competiții la nivel local, național și internațional, în ramurile sportive cuprinse în Certificatul de Identitate Sportivă;
             </li>
             <li>
-              sa contribuie la promovarea si dezvoltarea a cat mai multori ramuri sportive;
+              contribuie la promovarea și dezvoltarea unui număr cât mai mare de ramuri sportive;
             </li>
             <li>
-              organizeze cursuri si antrenamente cu caracter regulat în ramurile de sport care fac obiectul de activitate al Asociatiei în scopul pregătirii sportivilor, indiferent de statutul lor si anume amatori sau profesionisti;
+              organizeze cursuri și antrenamente cu caracter regulat în ramurile de sport care fac obiectul activității Asociației, în scopul pregătirii sportivilor, indiferent de statutul lor (amatori sau profesioniști);
             </li>
             <li>
-              organizeze si sa deruleze activităţi recreative, cantonamente de pregătire sportiva, competitii pentru membrii Asociatiei Sportive;
+              organizeze și să deruleze activități recreative, cantonamente de pregătire sportivă și competiții pentru membrii Asociației;
             </li>
             <li>
-              Atraga parteneriate si resurse pentru sustinerea proiectelor derulate de Asociatia Clubul Sportiv B&amp;B Team;
+              atragă parteneriate și resurse pentru susținerea proiectelor derulate de Asociația Clubul Sportiv B&amp;B Team;
             </li>
             <li>
-              organizeze evenimente si demonstratii cu scopul de a promova activitatea asociatiei.
+              organizeze evenimente și demonstrații cu scopul promovării activității asociației.
             </li>
           </ul>
           <br />
           <p>
-            Asociatia Clubul Sportiv B&amp;B Team a fost infiintata in anul 2024 si este persoana juridica romana de drept privat, fara scop patrimonial, polisportiva, apolitica si non-profit. Clubul Sportiv este constituit si functioneaza in conformitate cu prevederile Ordonantei Guvernului nr.26/2000 cu privire la asociatii si fundatii si a Legii Educatiei Fizice si Sportului nr.69/2000.
+            Asociația Clubul Sportiv B&amp;B Team a fost înființată în anul 2024 și este persoană juridică română de drept privat, fără scop patrimonial, polisportivă, apolitică și non‑profit. Clubul sportiv este constituit și funcționează în conformitate cu prevederile Ordonanței Guvernului nr.26/2000 privind asociațiile și fundațiile și ale Legii educației fizice și sportului nr.69/2000.
           </p>
         </section>
         </div>
