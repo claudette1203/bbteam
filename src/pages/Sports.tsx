@@ -41,7 +41,7 @@ const Sports: React.FC = () => {
       <Hero
         backgroundImage="./images/sports.jpg"
         heading="Join B&amp;B Team"
-        subheading="Devin-o acum un atlet de top și alătură-te echipei noastre!"
+        subheading="Devino acum un atlet de top și alătură-te echipei noastre!"
         buttonText="Înscrie-te acum!"
         buttonLink=".#contact"
       />

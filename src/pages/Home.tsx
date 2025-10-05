@@ -6,12 +6,12 @@ import Fact from '../components/Fact';
 const facts= [
   {
     num: 35,
-    fact: "Peste 35 de medalii de aur, argint și bronz câștigate la competiții naționale de către sportivii antrenorilor noștri.",
+    fact: "Peste 35 de medalii de aur, argint și bronz câștigate la competiții naționale de către sportivii antrenați de antrenorii noștri.",
     image: "./images/medal.jpeg"
   }, 
   {
     num: 12,
-    fact: "Ani de experienta in antrenat sportivi. Echipa noastra este formata din profesionisti cu experienta.",
+    fact: "Ani de experiență în antrenarea sportivilor. Echipa noastră este formată din profesioniști cu experiență.",
     image: "./images/athlete.webp"
   }
 ]
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       <Hero
           backgroundImage="./images/track.jpeg"
           heading="Join B&amp;B Team"
-          subheading="Devin-o acum un atlet de top și alătură-te echipei noastre!"
+          subheading="Devino acum un atlet de top și alătură-te echipei noastre!"
           buttonText="Înscrie-te acum!"
           buttonLink=".#contact"
         />
@@ -35,27 +35,24 @@ const Home: React.FC = () => {
         </section>
         <section className="info-section">
           <p>
-            Asociatia Clubul Sportiv B&amp;B Team, este un club privat fara scop
-            patrimonial infiintat in anul 2024 din dorinta a trei fosti si actuali sportivi de
-            performanta, de a se dedica atat promovarii unui stil de viata sanatos cat si a
-            performantei sportive.
-            Clubul nostru ofera oportunitatea pentru sportivii de toate varstele si toate
-            nivelurile de pregatire de la incepatori pana la participanti la competitii de nivel
-            national si chiar international.
-            Misiunea si valorile noastre sunt:
+            Clubul Sportiv B&amp;B Team este o asociație privată, fără scop patrimonial, înființată în 2024 din dorința a trei foști și actuali sportivi de performanță de a se dedica atât promovării unui stil de viață sănătos, cât și performanței sportive. Clubul nostru oferă oportunități pentru sportivi de toate vârstele și nivelurile de pregătire: de la începători până la participanți la competiții de nivel național și internațional.
+          </p>
+          <br />
+          <p>
+            Misiunea și valorile noastre sunt:
           </p>
           <br />
           <ul>
-            <li>promovarea sportului si a unui stil de viata activ;</li>
-            <li>dezvoltarea si sprijinirea sportivilor in atingerea obiectivelor lor;</li>
-            <li>disciplina si fair-play-ul, (si spiritual de echipa) ca principii fundamentale;</li>
-            <li>accesibilitate si incluziune – sport pentru toti , indiferent de nivelul de experienta;</li>
+            <li>promovarea sportului și unui stil de viață activ;</li>
+            <li>dezvoltarea și sprijinirea sportivilor în atingerea obiectivelor personale;</li>
+            <li>disciplina, fair-play-ul și spiritul de echipă, ca principii fundamentale;</li>
+            <li>accesibilitatea și incluziunea – sportul pentru toți, indiferent de nivelul de experiență.</li>
           </ul>
           <br />
         </section>
       </div>
     </>
-  );
+  )
 };
 
 export default Home;
