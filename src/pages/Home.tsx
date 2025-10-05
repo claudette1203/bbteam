@@ -35,7 +35,7 @@ const Home: React.FC = () => {
         </section>
         <section className="info-section">
           <p>
-            Clubul Sportiv B&amp;B Team este o asociație privată, fără scop patrimonial, înființată în 2024 din dorința a trei foști și actuali sportivi de performanță de a se dedica atât promovării unui stil de viață sănătos, cât și performanței sportive. Clubul nostru oferă oportunități pentru sportivi de toate vârstele și nivelurile de pregătire: de la începători până la participanți la competiții de nivel național și internațional.
+            Asociația Clubul Sportiv B&B Team este un club privat fără scop patrimonial, înființat în anul 2024, din dorința a trei foști și actuali sportivi de performanță de a se dedica atât promovării unui stil de viață sănătos, cât și performanței sportive. Clubul nostru oferă oportunități pentru sportivii de toate vârstele și toate nivelurile de pregătire: de la începători, până la participanți la competiții de nivel național și chiar internațional.
           </p>
           <br />
           <p>
