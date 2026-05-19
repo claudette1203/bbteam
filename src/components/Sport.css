@@ -128,7 +128,6 @@
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    padding-bottom: 3rem;
     background: var(--background-color);
     border-radius: 10px;
     width: 60%;
@@ -139,12 +138,25 @@
 }
 
 .modal-close {
-    margin-top: auto;
+    margin-top: 1.5rem;
     align-self: flex-end; 
-    background: transparent;
+    background: var(--primary-color);
+    color: var(--background-color);
+    padding: 16px 20px 14px 20px;
+    border-radius: 5px;
     border: none;
-    font-size: 1.5rem;
+    -webkit-appearance: none;
+    appearance: none;
+    font-family: var(--title-font);
+    font-size: 1.2rem;
+    line-height: normal;
+    text-transform: uppercase;
     cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.modal-close:hover {
+    opacity: 0.8;
 }
 
 @keyframes slideDown {
@@ -182,8 +194,8 @@
 
     .modal-close {
         font-size: 1.2rem;
-        padding: 20px;
-        gap: 10px;
+        padding: 16px 20px 14px 20px;
+        line-height: normal;
     }
 
     .sport-detail img {
